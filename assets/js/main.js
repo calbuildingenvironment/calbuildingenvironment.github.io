@@ -26,6 +26,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /*=========================
+      MOBILE MENU (industries pages template)
+    =========================*/
+
+    const navToggle = document.querySelector(".nav-toggle");
+    const mainNav = document.querySelector(".main-nav");
+
+    if (navToggle && mainNav) {
+
+        navToggle.addEventListener("click", () => {
+
+            mainNav.classList.toggle("show-menu");
+
+            navToggle.setAttribute(
+                "aria-expanded",
+                mainNav.classList.contains("show-menu") ? "true" : "false"
+            );
+
+        });
+
+    }
+
+    /*=========================
       STICKY HEADER
     =========================*/
 

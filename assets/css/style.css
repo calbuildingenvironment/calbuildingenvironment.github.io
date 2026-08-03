@@ -88,6 +88,92 @@ nav a:hover{
     color:#0B3D91;
 }
 
+.mobile-menu{
+    display:none;
+    background:none;
+    border:none;
+    font-size:1.6rem;
+    color:#0B3D91;
+    cursor:pointer;
+}
+
+/* Industries pages use a different header template */
+.site-header{
+    position:sticky;
+    top:0;
+    width:100%;
+    background:#ffffff;
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
+.site-header__bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:80px;
+    width:min(1200px,92%);
+    margin:0 auto;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#0B3D91;
+    font-weight:800;
+}
+
+.brand__mark{
+    background:#0B3D91;
+    color:#fff;
+    font-size:.85rem;
+    font-weight:800;
+    padding:6px 10px;
+    border-radius:6px;
+}
+
+.brand__name{
+    font-size:1.05rem;
+    line-height:1.2;
+}
+
+.brand__name span{
+    display:block;
+    font-size:.7rem;
+    font-weight:500;
+    color:#6b7280;
+}
+
+.nav-toggle{
+    display:none;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+.main-nav{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.main-nav ul{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.main-nav a{
+    color:#1f2937;
+    font-weight:600;
+    transition:.3s;
+}
+
+.main-nav a:hover{
+    color:#0B3D91;
+}
+
 /* ===================================
    BUTTONS
 =================================== */
@@ -124,6 +210,29 @@ nav a:hover{
 .btn-outline:hover{
     background:#0B3D91;
     color:#ffffff;
+}
+
+.call-button{
+    position:fixed;
+    bottom:24px;
+    right:24px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    background:#0B3D91;
+    color:#ffffff;
+    padding:14px 24px;
+    border-radius:50px;
+    font-weight:700;
+    box-shadow:0 8px 20px rgba(11,61,145,.35);
+    transition:.3s;
+    z-index:999;
+}
+
+.call-button:hover{
+    background:#082d69;
+    transform:translateY(-2px);
 }
 
 /* ===================================
@@ -428,6 +537,54 @@ nav a:hover{
 }
 
 /* ===================================
+   FAQ
+=================================== */
+
+.faq{
+    background:#f8fafc;
+}
+
+.faq-container{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.faq-container details{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:8px;
+    padding:20px 24px;
+    margin-bottom:16px;
+}
+
+.faq-container summary{
+    font-weight:700;
+    color:#111827;
+    cursor:pointer;
+    list-style:none;
+}
+
+.faq-container summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-container summary::after{
+    content:"+";
+    float:right;
+    color:#0B3D91;
+    font-weight:700;
+}
+
+.faq-container details[open] summary::after{
+    content:"−";
+}
+
+.faq-container details p{
+    color:#4b5563;
+    margin-top:14px;
+}
+
+/* ===================================
    CTA
 =================================== */
 
@@ -462,6 +619,10 @@ nav a:hover{
 .cta .btn-outline:hover{
     background:#fff;
     color:#0B3D91;
+}
+
+.cta .hero-buttons{
+    justify-content:center;
 }
 /* ===================================
    FOOTER
@@ -582,7 +743,85 @@ img:hover{
     position:relative;
 }
 
-nav{
+header{
+    position:relative;
+}
+
+.mobile-menu{
+    display:block;
+}
+
+nav ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    flex-direction:column;
+    gap:0;
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+nav ul.show-menu{
+    display:flex;
+}
+
+nav ul li{
+    width:100%;
+    text-align:center;
+}
+
+nav ul li a{
+    display:block;
+    padding:16px;
+}
+
+.nav .btn{
+    display:none;
+}
+
+.header-buttons{
+    display:none;
+}
+
+.nav-toggle{
+    display:block;
+}
+
+.main-nav{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    flex-direction:column;
+    gap:0;
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.main-nav.show-menu{
+    display:flex;
+}
+
+.main-nav ul{
+    flex-direction:column;
+    width:100%;
+    gap:0;
+}
+
+.main-nav ul li{
+    width:100%;
+    text-align:center;
+}
+
+.main-nav ul li a{
+    display:block;
+    padding:16px;
+}
+
+.main-nav .btn{
     display:none;
 }
 
