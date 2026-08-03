@@ -1,0 +1,33 @@
+/* TEAM */
+
+Company: California Building Environment
+
+Website: https://www.californiabuildingenvironment.com
+
+Services:
+- Asbestos Inspections
+- Mold Inspections
+- Lead-Based Paint Inspections
+- Indoor Air Quality Assessments
+- Air Monitoring
+- Air Clearance Testing
+- Environmental Consulting
+
+Location:
+Southern California
+
+/* SITE */
+
+Standards:
+HTML5
+CSS3
+JavaScript
+
+Framework:
+None
+
+CMS:
+None (Static HTML)
+
+SEO:
+Optimized for Performance, Accessibility, and Search Engines
