@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://www.californiabuildingenvironment.com/sitemap.xml
+Sitemap: https://calbuildingenvironment.github.io/sitemap.xml
