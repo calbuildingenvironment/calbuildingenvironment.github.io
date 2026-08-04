@@ -198,6 +198,11 @@ nav a:hover{
     color:#0B3D91;
 }
 
+.main-nav a.btn,
+.main-nav a.btn:hover{
+    color:#ffffff;
+}
+
 .main-nav a.active{
     color:#0B3D91;
 }
