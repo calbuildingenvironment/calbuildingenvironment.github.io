@@ -191,10 +191,36 @@ nav a:hover{
     color:#1f2937;
     font-weight:600;
     transition:.3s;
+    position:relative;
 }
 
 .main-nav a:hover{
     color:#0B3D91;
+}
+
+.main-nav a.active{
+    color:#0B3D91;
+}
+
+.main-nav a.active::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-6px;
+    height:3px;
+    border-radius:2px;
+    background:#0B3D91;
+}
+
+@media(max-width:992px){
+    .main-nav a.active::after{
+        display:none;
+    }
+    .main-nav a.active{
+        background:#eef2ff;
+        border-radius:8px;
+    }
 }
 
 /* ===================================
@@ -317,6 +343,41 @@ nav a:hover{
     font-weight:600;
     color:#0B3D91;
 }
+/* ===================================
+   PROOF BAR
+=================================== */
+
+.proof-bar{
+    background:#0B3D91;
+    padding:40px 0;
+}
+
+.proof-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+    text-align:center;
+}
+
+.proof-item h3{
+    color:#ffffff;
+    font-size:1.5rem;
+    font-weight:800;
+    margin-bottom:6px;
+}
+
+.proof-item p{
+    color:#c7d6f2;
+    font-size:.9rem;
+    font-weight:500;
+}
+
+@media(max-width:900px){
+    .proof-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
 /* ===================================
    SECTION TITLES
 =================================== */
@@ -989,14 +1050,6 @@ img:hover{
     grid-template-columns:repeat(2,1fr);
 }
 
-}
-
-/* ===================================
-   SMALL DEVICES
-=================================== */
-
-@media (max-width:768px){
-
 .header{
     position:relative;
 }
@@ -1083,6 +1136,14 @@ nav ul li a{
     display:none;
 }
 
+}
+
+/* ===================================
+   SMALL DEVICES
+=================================== */
+
+@media (max-width:768px){
+
 .container{
     width:94%;
 }
@@ -1119,7 +1180,8 @@ section{
 .testimonial-grid,
 .contact-grid,
 .split-layout,
-.grid--4{
+.grid--4,
+.proof-grid{
     grid-template-columns:1fr;
 }
 
@@ -1199,15 +1261,4 @@ section{
 
     transform:translateY(0);
 
-}
-.hero-experience {
-    display: inline-block;
-    margin: 20px 0;
-    padding: 10px 20px;
-    background: #f4f7f9;
-    color: #0b4f6c;
-    font-size: 1.15rem;
-    font-weight: 700;
-    border-left: 5px solid #2a9d8f;
-    border-radius: 6px;
 }
