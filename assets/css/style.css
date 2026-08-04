@@ -598,7 +598,6 @@ nav a:hover{
 
 .service-card:hover{
     border-color:#0B3D91;
-    transform:translateY(-8px);
     box-shadow:0 20px 45px rgba(0,0,0,.10);
 }
 
@@ -769,7 +768,6 @@ nav a:hover{
 
 .county-card:hover{
     border-color:#0B3D91;
-    transform:translateY(-8px);
     box-shadow:0 20px 45px rgba(0,0,0,.10);
 }
 
