@@ -305,6 +305,19 @@ nav a:hover{
     gap:80px;
 }
 
+.hero-content{
+    min-width:0;
+}
+
+.hero-image{
+    min-width:0;
+}
+
+.hero-image img{
+    width:100%;
+    height:auto;
+}
+
 .eyebrow{
     display:inline-block;
     margin-bottom:18px;
