@@ -646,6 +646,71 @@ nav a:hover{
 }
 
 /* ===================================
+   SPLIT LAYOUT (area pages)
+=================================== */
+
+.split-layout{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.split-content span{
+    color:#0B3D91;
+    font-weight:700;
+    font-size:.9rem;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+}
+
+.split-content h2{
+    font-size:2.2rem;
+    margin:14px 0 20px;
+    color:#111827;
+}
+
+.split-content p{
+    color:#4b5563;
+    margin-bottom:16px;
+}
+
+.check-list{
+    margin-top:20px;
+}
+
+.check-list li{
+    position:relative;
+    padding-left:30px;
+    margin-bottom:12px;
+    color:#1f2937;
+    font-weight:600;
+}
+
+.check-list li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#0B3D91;
+    font-weight:800;
+}
+
+.split-image{
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+}
+
+.split-image iframe,
+.split-image img{
+    width:100%;
+    height:380px;
+    border:0;
+    display:block;
+}
+
+/* ===================================
    CONTACT
 =================================== */
 
@@ -1053,6 +1118,7 @@ section{
 .process-grid,
 .testimonial-grid,
 .contact-grid,
+.split-layout,
 .grid--4{
     grid-template-columns:1fr;
 }
