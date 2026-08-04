@@ -58,11 +58,34 @@ section {
     z-index:1000;
 }
 
+header{
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    background:#ffffff;
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
 .nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
     min-height:80px;
+}
+
+header nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:80px;
+}
+
+.header-buttons{
+    display:flex;
+    align-items:center;
+    gap:16px;
 }
 
 .logo{
@@ -343,6 +366,95 @@ nav a:hover{
 }
 
 /* ===================================
+   INDUSTRIES / GRID PAGES
+   (breadcrumb, section--tight, lede,
+   grid, card--link — used on the
+   industries pages template)
+=================================== */
+
+.breadcrumb{
+    padding:20px 0;
+}
+
+.breadcrumb ol{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:.9rem;
+    color:#6b7280;
+    list-style:none;
+}
+
+.breadcrumb li:not(:last-child)::after{
+    content:"/";
+    margin-left:8px;
+    color:#d1d5db;
+}
+
+.breadcrumb a{
+    color:#0B3D91;
+}
+
+.breadcrumb [aria-current="page"]{
+    color:#111827;
+    font-weight:600;
+}
+
+.section--tight{
+    padding-bottom:20px;
+}
+
+.lede{
+    font-size:1.15rem;
+    color:#6b7280;
+    max-width:700px;
+    margin-top:16px;
+}
+
+.grid{
+    display:grid;
+    gap:30px;
+}
+
+.grid--4{
+    grid-template-columns:repeat(4,1fr);
+}
+
+.card--link{
+    display:block;
+    text-decoration:none;
+    position:relative;
+    padding-top:55px;
+}
+
+.card--link:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.card__index{
+    position:absolute;
+    top:24px;
+    right:24px;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.8rem;
+    font-weight:700;
+    color:#0B3D91;
+    background:#eef2ff;
+    padding:4px 10px;
+    border-radius:20px;
+}
+
+.card--link h3{
+    margin:0 0 12px;
+}
+
+.card__cta{
+    color:#0B3D91;
+    font-weight:700;
+}
+
+/* ===================================
    FEATURES
 =================================== */
 
@@ -442,10 +554,7 @@ nav a:hover{
     transform:translateY(-8px);
 }
 
-.cert-card img{
-    width:70px;
-    height:70px;
-    object-fit:contain;
+.cert-card .icon{
     margin:0 auto 20px;
 }
 
@@ -534,6 +643,86 @@ nav a:hover{
 .client{
     font-weight:700;
     color:#111827;
+}
+
+/* ===================================
+   CONTACT
+=================================== */
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1.4fr;
+    gap:50px;
+    margin-top:20px;
+}
+
+.contact-info h3{
+    font-size:1.4rem;
+    margin-bottom:14px;
+    color:#111827;
+}
+
+.contact-info > p{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+.info-item{
+    margin-bottom:24px;
+}
+
+.info-item strong{
+    display:block;
+    color:#0B3D91;
+    font-size:.85rem;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    margin-bottom:6px;
+}
+
+.info-item a,
+.info-item p{
+    color:#1f2937;
+    font-weight:600;
+}
+
+.quote-form{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    background:#f8fafc;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:32px;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea{
+    width:100%;
+    padding:14px 16px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    font-family:inherit;
+    font-size:1rem;
+    color:#1f2937;
+    background:#ffffff;
+    transition:.2s;
+}
+
+.quote-form input:focus,
+.quote-form select:focus,
+.quote-form textarea:focus{
+    outline:none;
+    border-color:#0B3D91;
+}
+
+.quote-form textarea{
+    resize:vertical;
+}
+
+.quote-form button{
+    align-self:flex-start;
 }
 
 /* ===================================
@@ -731,6 +920,10 @@ img:hover{
     font-size:2.6rem;
 }
 
+.grid--4{
+    grid-template-columns:repeat(2,1fr);
+}
+
 }
 
 /* ===================================
@@ -858,7 +1051,9 @@ section{
 .service-grid,
 .cert-grid,
 .process-grid,
-.testimonial-grid{
+.testimonial-grid,
+.contact-grid,
+.grid--4{
     grid-template-columns:1fr;
 }
 
