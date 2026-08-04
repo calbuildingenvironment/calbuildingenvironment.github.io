@@ -579,6 +579,21 @@ nav a:hover{
     padding:35px;
     transition:.3s;
     background:#fff;
+    position:relative;
+}
+
+.service-card > a::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:16px;
+}
+
+.service-card .service-content > a::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:16px;
 }
 
 .service-card:hover{
@@ -722,6 +737,43 @@ nav a:hover{
 .client{
     font-weight:700;
     color:#111827;
+}
+
+/* ===================================
+   COUNTIES GRID (areas index page)
+=================================== */
+
+.counties-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:40px;
+}
+
+.county-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+}
+
+.county-card:hover{
+    border-color:#0B3D91;
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+}
+
+.county-card h3{
+    color:#111827;
+    font-size:1.4rem;
+    margin-bottom:14px;
+}
+
+.county-card p{
+    color:#6b7280;
+    margin-bottom:24px;
 }
 
 /* ===================================
@@ -1199,6 +1251,7 @@ section{
 .contact-grid,
 .split-layout,
 .grid--4,
+.counties-grid,
 .proof-grid{
     grid-template-columns:1fr;
 }
