@@ -1200,3 +1200,14 @@ section{
     transform:translateY(0);
 
 }
+.hero-experience {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #f4f7f9;
+    color: #0b4f6c;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-left: 5px solid #2a9d8f;
+    border-radius: 6px;
+}
