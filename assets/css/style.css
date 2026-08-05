@@ -147,6 +147,13 @@ nav a:hover{
     color:#6b7280;
 }
 
+.header-phone{
+    font-weight:700;
+    color:#0B3D91;
+    white-space:nowrap;
+    font-size:.95rem;
+}
+
 .nav-toggle{
     display:none;
     background:none;

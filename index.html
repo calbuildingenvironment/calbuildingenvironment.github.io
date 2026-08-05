@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="robots" content="index,follow">
 
-<meta name="author" content="California Building Environment">
 <head>
+<meta name="robots" content="index,follow">
+<meta name="author" content="California Building Environment">
 
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://maps.google.com; object-src 'none'; base-uri 'self'">
 
 <title>California Building Environment | Environmental Inspection Experts</title>
 
@@ -22,7 +23,7 @@
 <meta name="twitter:description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs.">
 <meta name="twitter:image" content="https://calbuildingenvironment.github.io/assets/images/hero.webp">
 
-<meta name="description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs.">>
+<meta name="description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs.">
 <link rel="icon" href="assets/images/icons/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/images/icons/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
@@ -81,6 +82,8 @@
       <span class="brand__mark" aria-hidden="true">CBE</span>
       <span class="brand__name">California Building Environment<span>Independent Testing &amp; Inspection</span></span>
     </a>
+    <a href="tel:+17146098367" class="header-phone" aria-label="Call (714) 609-8367">(714) 609-8367</a>
+
     <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="#0f2a3f" stroke-width="1.6" stroke-linecap="round"/></svg>
     </button>
@@ -705,7 +708,7 @@ Independent environmental inspection and consulting services.
 
 <a href="tel:+17146098367">
 
-(714) 609-8367
+<a href="tel:+17146098367">(714) 609-8367</a>
 
 </a>
 
@@ -761,20 +764,26 @@ San Bernardino County
 
 <input
 type="text"
+name="name"
 placeholder="Full Name"
+aria-label="Full Name"
 required>
 
 <input
 type="email"
+name="email"
 placeholder="Email Address"
+aria-label="Email Address"
 required>
 
 <input
 type="tel"
+name="phone"
 placeholder="Phone Number"
+aria-label="Phone Number"
 required>
 
-<select required>
+<select name="service" aria-label="Select a Service" required>
 
 <option value="">Select a Service</option>
 
@@ -794,7 +803,9 @@ required>
 
 <textarea
 rows="6"
+name="message"
 placeholder="Describe your project..."
+aria-label="Describe your project"
 required></textarea>
 
 <button class="btn" type="submit">
@@ -1009,7 +1020,7 @@ Contact
 
 </h4>
 
-<p>(714) 609-8367</p>
+<p><a href="tel:+17146098367">(714) 609-8367</a></p>
 
 <p>calbuildingenvironment@gmail.com</p>
 
@@ -1043,7 +1054,7 @@ Contact
 
 </button>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer></script>
 
 </body>
 

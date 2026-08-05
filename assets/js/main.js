@@ -6,6 +6,14 @@ MAIN JAVASCRIPT
 document.addEventListener("DOMContentLoaded", () => {
 
     /*=========================
+      CURRENT YEAR
+    =========================*/
+
+    const yearEl = document.querySelector(".current-year");
+
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    /*=========================
       MOBILE MENU
     =========================*/
 

@@ -5,8 +5,11 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://maps.google.com; object-src 'none'; base-uri 'self'">
 
 <title>Page Not Found | California Building Environment</title>
+
+<meta name="description" content="The page you're looking for doesn't exist. Browse our environmental inspection services or contact California Building Environment.">
 
 <meta name="robots" content="noindex">
 
@@ -32,6 +35,8 @@
       <span class="brand__mark" aria-hidden="true">CBE</span>
       <span class="brand__name">California Building Environment<span>Independent Testing &amp; Inspection</span></span>
     </a>
+    <a href="tel:+17146098367" class="header-phone" aria-label="Call (714) 609-8367">(714) 609-8367</a>
+
     <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="#0f2a3f" stroke-width="1.6" stroke-linecap="round"/></svg>
     </button>
@@ -161,7 +166,7 @@ Contact
 
 <p>
 Phone<br>
-(714) 609-8367
+<a href="tel:+17146098367">(714) 609-8367</a>
 </p>
 
 <p>
@@ -191,7 +196,7 @@ Contact Us
 
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer></script>
 
 </body>
 
