@@ -68,31 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     /*=========================
-      SMOOTH SCROLL
-    =========================*/
-
-    document.querySelectorAll('a[href^="#"]').forEach(link => {
-
-        link.addEventListener("click", function (e) {
-
-            const target = document.querySelector(this.getAttribute("href"));
-
-            if (!target) return;
-
-            e.preventDefault();
-
-            target.scrollIntoView({
-
-                behavior: "smooth",
-                block: "start"
-
-            });
-
-        });
-
-    });
-
-    /*=========================
       SCROLL ANIMATIONS
     =========================*/
 
@@ -147,6 +122,37 @@ document.addEventListener("DOMContentLoaded", () => {
         topBtn.addEventListener("click", () => {
 
             window.scrollTo({ top: 0, behavior: "smooth" });
+
+        });
+
+    }
+
+    /*=========================
+      QUOTE FORM
+    =========================*/
+
+    const quoteForm = document.querySelector(".quote-form");
+
+    if (quoteForm) {
+
+        quoteForm.addEventListener("submit", (e) => {
+
+            e.preventDefault();
+
+            const field = (key) => quoteForm.elements.namedItem(key).value.trim();
+            const subject = encodeURIComponent(
+                `Quote Request: ${field("service")} - ${field("name")}`
+            );
+            const body = encodeURIComponent(
+                `Name: ${field("name")}\n` +
+                `Email: ${field("email")}\n` +
+                `Phone: ${field("phone")}\n` +
+                `Service: ${field("service")}\n\n` +
+                `${field("message")}`
+            );
+
+            window.location.href =
+                `mailto:calbuildingenvironment@gmail.com?subject=${subject}&body=${body}`;
 
         });
 

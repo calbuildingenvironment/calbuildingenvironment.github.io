@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/css/style.css">
 <script type="application/ld+json">
@@ -173,20 +173,26 @@ Whether you're planning a renovation, purchasing property, investigating environ
 
 <input
 type="text"
+name="name"
 placeholder="Full Name"
+autocomplete="name"
 required>
 
 <input
 type="email"
+name="email"
 placeholder="Email Address"
+autocomplete="email"
 required>
 
 <input
 type="tel"
+name="phone"
 placeholder="Phone Number"
+autocomplete="tel"
 required>
 
-<select required>
+<select name="service" required>
 
 <option value="">Select a Service</option>
 
@@ -206,6 +212,7 @@ required>
 
 <textarea
 rows="6"
+name="message"
 placeholder="Describe your project..."
 required></textarea>
 
