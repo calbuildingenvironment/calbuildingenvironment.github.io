@@ -20,6 +20,11 @@
 <meta name="twitter:image" content="https://calbuildingenvironment.github.io/assets/images/hero.webp">
 
 <meta name="description" content="Environmental inspections across Orange, Los Angeles, Riverside, and San Bernardino counties, California.">>
+<link rel="icon" href="../assets/images/icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/images/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/images/icons/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="msapplication-config" content="../browserconfig.xml">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +32,58 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Service Areas",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Los Angeles County",
+      "url": "https://calbuildingenvironment.github.io/areas/los-angeles-county.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Orange County",
+      "url": "https://calbuildingenvironment.github.io/areas/orange-county.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Riverside County",
+      "url": "https://calbuildingenvironment.github.io/areas/riverside-county.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "San Bernardino County",
+      "url": "https://calbuildingenvironment.github.io/areas/san-bernardino-county.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://calbuildingenvironment.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Service Area"
+    }
+  ]
+}
+</script>
 
 </head>
 
@@ -106,7 +163,7 @@ Select your county to learn more about our environmental inspection services ava
 
 <div class="counties-grid">
 
-<div class="county-card">
+<a href="orange-county.html" class="county-card">
 
 <h3>
 
@@ -120,15 +177,15 @@ Residential, commercial, industrial, healthcare, educational, and government env
 
 </p>
 
-<a href="orange-county.html" class="btn btn-primary">
+<span class="btn btn-primary">
 
 View Area
 
+</span>
+
 </a>
 
-</div>
-
-<div class="county-card">
+<a href="los-angeles-county.html" class="county-card">
 
 <h3>
 
@@ -142,15 +199,15 @@ Independent asbestos inspections, mold inspections, air monitoring, and environm
 
 </p>
 
-<a href="los-angeles-county.html" class="btn btn-primary">
+<span class="btn btn-primary">
 
 View Area
 
+</span>
+
 </a>
 
-</div>
-
-<div class="county-card">
+<a href="riverside-county.html" class="county-card">
 
 <h3>
 
@@ -164,15 +221,15 @@ Professional environmental inspections and accredited laboratory sample coordina
 
 </p>
 
-<a href="riverside-county.html" class="btn btn-primary">
+<span class="btn btn-primary">
 
 View Area
 
+</span>
+
 </a>
 
-</div>
-
-<div class="county-card">
+<a href="san-bernardino-county.html" class="county-card">
 
 <h3>
 
@@ -186,13 +243,13 @@ Environmental inspection and consulting services for public and private sector p
 
 </p>
 
-<a href="san-bernardino-county.html" class="btn btn-primary">
+<span class="btn btn-primary">
 
 View Area
 
-</a>
+</span>
 
-</div>
+</a>
 
 </div>
 
