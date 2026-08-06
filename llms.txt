@@ -38,8 +38,10 @@ Service area: Los Angeles County, Orange County, Riverside County, San Bernardin
 - [All industries](https://calbuildingenvironment.github.io/industries/index.html)
 
 ## About
+- [Privacy Policy](https://calbuildingenvironment.github.io/privacy.html)
 
 - [About California Building Environment](https://calbuildingenvironment.github.io/about.html)
+- [Our Team](https://calbuildingenvironment.github.io/about/team.html): Certified environmental inspectors with CDPH, AHERA, and EPA certifications.
 - [Frequently Asked Questions](https://calbuildingenvironment.github.io/faq.html)
 - [Contact / Request a Quote](https://calbuildingenvironment.github.io/contact.html)
 

@@ -18,12 +18,14 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://calbuildingenvironment.github.io/">
 <meta property="og:image" content="https://calbuildingenvironment.github.io/assets/images/hero.webp">
+<meta property="og:site_name" content="California Building Environment">
+<meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="California Building Environment | Environmental Inspection Experts">
 <meta name="twitter:description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs.">
 <meta name="twitter:image" content="https://calbuildingenvironment.github.io/assets/images/hero.webp">
 
-<meta name="description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs.">
+<meta name="description" content="Certified mold, asbestos, lead & air quality inspections across Southern California, backed by 35+ years combined experience and accredited labs. — Call (714) 609-8367 for a free quote.">
 <link rel="icon" href="assets/images/icons/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/images/icons/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
@@ -40,7 +42,8 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"LocalBusiness",
+  "@type":"ProfessionalService",
+  "@id":"https://calbuildingenvironment.github.io/#business",
   "name":"California Building Environment",
   "url":"https://calbuildingenvironment.github.io/",
   "image":"https://calbuildingenvironment.github.io/assets/images/hero.webp",
@@ -48,25 +51,113 @@
   "telephone":"+1-714-609-8367",
   "email":"calbuildingenvironment@gmail.com",
   "priceRange":"$$",
-  "areaServed":[
-    "Los Angeles County",
-    "Orange County",
-    "Riverside County",
-    "San Bernardino County"
-  ],
+  "description":"Independent environmental inspections for asbestos, mold, lead, and indoor air quality across Southern California.",
+  "areaServed":{
+    "@type":"GeoCircle",
+    "geoMidpoint":{
+      "@type":"GeoCoordinates",
+      "latitude":"33.6846",
+      "longitude":"-117.8265"
+    },
+    "geoRadius":"80000"
+  },
   "address":{
     "@type":"PostalAddress",
+    "addressLocality":"Irvine",
     "addressRegion":"CA",
     "addressCountry":"US"
   },
+  "geo":{
+    "@type":"GeoCoordinates",
+    "latitude":"33.6846",
+    "longitude":"-117.8265"
+  },
+  "openingHoursSpecification":{
+    "@type":"OpeningHoursSpecification",
+    "dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens":"08:00",
+    "closes":"17:00"
+  },
   "knowsAbout":[
     "Asbestos Inspections",
+    "AHERA Asbestos Inspections",
+    "NESHAP Compliance",
     "Mold Inspections",
     "Lead-Based Paint Inspections",
+    "EPA RRP Rule",
     "Indoor Air Quality Assessments",
     "Air Monitoring",
     "Air Clearance Testing",
-    "Environmental Consulting"
+    "Environmental Consulting",
+    "SCAQMD Rule 1403",
+    "Cal/OSHA Title 8"
+  ],
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Environmental Inspection Services",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Asbestos Inspections"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mold Inspections"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lead-Based Paint Inspections"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Indoor Air Quality Assessments"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Air Monitoring"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Air Clearance Testing"}}
+    ]
+  },
+  "potentialAction":{
+    "@type":"ReserveAction",
+    "target":{
+      "@type":"EntryPoint",
+      "urlTemplate":"https://calbuildingenvironment.github.io/contact.html",
+      "actionPlatform":[
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    },
+    "result":{
+      "@type":"Reservation",
+      "name":"Environmental Inspection Appointment"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"When is an asbestos inspection required?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Asbestos inspections are commonly performed before renovation, demolition, property transactions, or when asbestos-containing materials are suspected."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Do I need a mold inspection?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"A mold inspection is recommended when there are signs of moisture, visible mold growth, musty odors, or concerns about indoor air quality."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"How long does an inspection take?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Most residential inspections are completed within a few hours, while larger commercial projects vary depending on the size and scope."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"When will I receive my report?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Reports are typically delivered after laboratory analysis is complete and reviewed by our inspection team."
+      }
+    }
   ]
 }
 </script>
@@ -78,7 +169,7 @@
 
 <header class="site-header">
   <div class="site-header__bar">
-    <a class="brand" href="index.html">
+    <a class="brand" href="/">
       <span class="brand__mark" aria-hidden="true">CBE</span>
       <span class="brand__name">California Building Environment<span>Independent Testing &amp; Inspection</span></span>
     </a>
@@ -88,10 +179,10 @@
     </button>
     <nav class="main-nav" id="main-nav" aria-label="Primary">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="services/index.html">Services</a></li>
-        <li><a href="industries/index.html">Industries</a></li>
-        <li><a href="areas/index.html">Service Area</a></li>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/industries/">Industries</a></li>
+        <li><a href="/areas/">Service Area</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -137,7 +228,7 @@ Call Now
 
 <div class="trust-item">
 
-<h3>Certified</h3>
+<strong>Certified</strong>
 
 <p>Industry Qualified Inspectors</p>
 
@@ -145,7 +236,7 @@ Call Now
 
 <div class="trust-item">
 
-<h3>Fast</h3>
+<strong>Fast</strong>
 
 <p>Quick Scheduling & Reports</p>
 
@@ -153,7 +244,7 @@ Call Now
 
 <div class="trust-item">
 
-<h3>Independent</h3>
+<strong>Independent</strong>
 
 <p>Laboratory Verified Results</p>
 
@@ -186,7 +277,7 @@ fetchpriority="high">
 
 <div class="proof-item">
 
-<h3>35+</h3>
+<strong>35+</strong>
 
 <p>Years in Business</p>
 
@@ -194,7 +285,7 @@ fetchpriority="high">
 
 <div class="proof-item">
 
-<h3>5,000+</h3>
+<strong>5,000+</strong>
 
 <p>Inspections Completed</p>
 
@@ -202,7 +293,7 @@ fetchpriority="high">
 
 <div class="proof-item">
 
-<h3>Licensed &amp; Insured</h3>
+<strong>Licensed &amp; Insured</strong>
 
 <p>State-Certified Inspectors</p>
 
@@ -210,7 +301,7 @@ fetchpriority="high">
 
 <div class="proof-item">
 
-<h3>We Work With Insurance</h3>
+<strong>We Work With Insurance</strong>
 
 <p>Claims-Ready Documentation</p>
 
@@ -218,7 +309,7 @@ fetchpriority="high">
 
 <div class="proof-item">
 
-<h3>24-Hour Response</h3>
+<strong>24-Hour Response</strong>
 
 <p>Response & Scheduling</p>
 
@@ -419,7 +510,7 @@ Learn More →
 Professional environmental consulting for residential, commercial, industrial, healthcare, and educational facilities.
 </p>
 
-<a href="services/index.html">
+<a href="/services/">
 Learn More →
 </a>
 
@@ -969,13 +1060,13 @@ Quick Links
 
 <ul>
 
-<li><a href="index.html">Home</a></li>
+<li><a href="/">Home</a></li>
 
-<li><a href="services/index.html">Services</a></li>
+<li><a href="/services/">Services</a></li>
 
-<li><a href="industries/index.html">Industries</a></li>
+<li><a href="/industries/">Industries</a></li>
 
-<li><a href="areas/index.html">Service Areas</a></li>
+<li><a href="/areas/">Service Areas</a></li>
 
 <li><a href="about.html">About</a></li>
 
@@ -1031,7 +1122,7 @@ Contact
 
 <div class="copyright">
 
-© 2026 California Building Environment. All Rights Reserved.
+© 2026 California Building Environment. All Rights Reserved. <a href="privacy.html">Privacy Policy</a>
 
 </div>
 

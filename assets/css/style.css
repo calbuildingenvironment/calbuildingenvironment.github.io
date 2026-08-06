@@ -32,6 +32,14 @@ a {
     text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible{
+    outline:2px solid #0B3D91;
+    outline-offset:2px;
+    border-radius:4px;
+}
+
 ul {
     list-style: none;
 }
@@ -413,11 +421,12 @@ nav a:hover{
     text-align:center;
 }
 
-.proof-item h3{
+.proof-item strong{
     color:#ffffff;
     font-size:1.5rem;
     font-weight:800;
     margin-bottom:6px;
+    display:block;
 }
 
 .proof-item p{
@@ -529,6 +538,20 @@ nav a:hover{
 .grid{
     display:grid;
     gap:30px;
+}
+
+.footer-tagline{
+    color:#b8c4cd;
+    font-size:.9rem;
+    max-width:32ch;
+}
+
+.grid-mt{
+    margin-top:20px;
+}
+
+.grid--3{
+    grid-template-columns:repeat(3,1fr);
 }
 
 .grid--4{
@@ -1049,7 +1072,8 @@ nav a:hover{
 .quote-form input:focus,
 .quote-form select:focus,
 .quote-form textarea:focus{
-    outline:none;
+    outline:2px solid #0B3D91;
+    outline-offset:2px;
     border-color:#0B3D91;
 }
 
@@ -1256,6 +1280,7 @@ img:hover{
     font-size:2.6rem;
 }
 
+.grid--3,
 .grid--4{
     grid-template-columns:repeat(2,1fr);
 }
@@ -1308,6 +1333,10 @@ nav ul li a{
 
 .nav-toggle{
     display:block;
+}
+
+.header-phone{
+    display:none;
 }
 
 .main-nav{
@@ -1390,6 +1419,7 @@ section{
 .testimonial-grid,
 .contact-grid,
 .split-layout,
+.grid--3,
 .grid--4,
 .counties-grid,
 .proof-grid{
