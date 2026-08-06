@@ -150,7 +150,7 @@
 =================================== */
 
 .hero{
-    padding:100px 0 80px;
+    padding:80px 0 40px;
     background:linear-gradient(to bottom,var(--color-bg),var(--color-bg-alt));
 }
 
@@ -1104,7 +1104,7 @@ section{
 }
 
 .hero{
-    padding:70px 0;
+    padding:60px 0 30px;
 }
 
 .hero h1{
