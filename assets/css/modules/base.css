@@ -1,0 +1,88 @@
+/* ===================================
+   California Building Environment
+   Main Stylesheet
+=================================== */
+
+/* Design Tokens */
+:root {
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --color-primary: #0B3D91;
+    --color-primary-dark: #082d69;
+    --color-text: #1f2937;
+    --color-text-dark: #111827;
+    --color-text-light: #6b7280;
+    --color-text-muted: #4b5563;
+    --color-bg: #fff;
+    --color-bg-alt: #f8fafc;
+    --color-bg-card: #eef2ff;
+    --color-border: #e5e7eb;
+    --color-border-light: #d1d5db;
+    --color-accent: #c7d6f2;
+    --color-success: #f59e0b;
+    --color-danger: #DC2626;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-pill: 20px;
+    --radius-full: 50%;
+    --shadow-sm: 0 4px 20px rgba(0,0,0,.06);
+    --shadow-md: 0 12px 30px rgba(0,0,0,.06);
+    --shadow-lg: 0 20px 45px rgba(0,0,0,.10);
+    --shadow-hero: 0 30px 60px rgba(0,0,0,.12);
+    --shadow-cta: 0 8px 20px rgba(11,61,145,.35);
+    --transition: .3s;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-text);
+    background: var(--color-bg);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible{
+    outline:2px solid var(--color-primary);
+    outline-offset:2px;
+    border-radius:4px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+}
+
+section {
+    padding: 100px 0;
+}
