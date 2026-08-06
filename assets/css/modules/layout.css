@@ -412,7 +412,7 @@ nav a:hover{
 .main-nav{
     display:flex;
     align-items:center;
-    gap:1.5rem;
+    gap:1.25rem;
     flex:1;
     justify-content:space-between;
 }
@@ -420,7 +420,8 @@ nav a:hover{
 .main-nav ul{
     display:flex;
     align-items:center;
-    gap:1.5rem;
+    gap:1.25rem;
+    flex-wrap:nowrap;
 }
 
 .main-nav a{
@@ -437,6 +438,9 @@ nav a:hover{
 .main-nav a.btn,
 .main-nav a.btn:hover{
     color:var(--color-bg);
+    padding:10px 20px;
+    font-size:.9rem;
+    white-space:nowrap;
 }
 
 .main-nav a.active{
