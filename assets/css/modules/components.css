@@ -212,6 +212,28 @@
     max-width:600px;
 }
 
+.hero-audience{
+    display:flex;
+    gap:12px;
+    margin-bottom:16px;
+}
+
+.hero-cta{
+    display:flex;
+    gap:16px;
+    margin-bottom:24px;
+}
+
+.hero-audience .btn-sm{
+    padding:10px 20px;
+    font-size:.9rem;
+}
+
+.hero-cta .btn-outline{
+    border-color:var(--color-bg);
+    color:var(--color-bg);
+}
+
 .hero-buttons{
     display:flex;
     gap:18px;
@@ -1115,6 +1137,17 @@ section{
     font-size:1rem;
 }
 
+.hero-audience,
+.hero-cta{
+    flex-direction:column;
+}
+
+.hero-audience .btn-sm,
+.hero-cta .btn,
+.hero-cta .btn-outline{
+    width:100%;
+}
+
 .hero-buttons{
     flex-direction:column;
     align-items:stretch;
@@ -1150,6 +1183,23 @@ section{
 
 .service-cta-sidebar{
     display:none;
+}
+
+.hero-image img{
+    width:100%;
+    margin-left:0;
+    transform:none;
+}
+
+.hero-image{
+    margin-top:0;
+}
+
+.call-button{
+    bottom:16px;
+    right:16px;
+    padding:12px 16px;
+    font-size:.85rem;
 }
 
 }
