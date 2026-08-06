@@ -44,6 +44,7 @@
     position:fixed;
     bottom:24px;
     right:24px;
+    z-index:1000;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -78,7 +79,7 @@
 .service-cta-sidebar{
     position:fixed;
     right:24px;
-    bottom:80px;
+    bottom:90px;
     background:var(--color-primary);
     color:var(--color-bg);
     padding:20px;
@@ -149,15 +150,15 @@
 =================================== */
 
 .hero{
-    padding:120px 0;
+    padding:100px 0 80px;
     background:linear-gradient(to bottom,var(--color-bg),var(--color-bg-alt));
 }
 
 .hero-grid{
     display:grid;
     grid-template-columns:1fr 1fr;
-    align-items:center;
-    gap:80px;
+    align-items:start;
+    gap:60px;
 }
 
 .hero-content{
@@ -166,11 +167,21 @@
 
 .hero-image{
     min-width:0;
+    margin-top:-30px;
 }
 
 .hero-image img{
-    width:100%;
+    width:108%;
     height:auto;
+    border-radius:12px;
+    box-shadow:0 25px 50px rgba(0,0,0,.10);
+    transform:translateY(-8px);
+    transition:transform .3s ease;
+    margin-left:-4%;
+}
+
+.hero-image img:hover{
+    transform:translateY(-12px);
 }
 
 .eyebrow{
@@ -181,17 +192,21 @@
     text-transform:uppercase;
     letter-spacing:1px;
     font-size:.9rem;
+    background:var(--color-bg-card);
+    padding:6px 14px;
+    border-radius:20px;
 }
 
 .hero h1{
     font-size:3.8rem;
-    line-height:1.1;
+    line-height:1.15;
     margin-bottom:24px;
     color:var(--color-text-dark);
 }
 
 .lead{
     font-size:1.2rem;
+    line-height:1.5;
     color:var(--color-text-muted);
     margin-bottom:35px;
     max-width:600px;
@@ -200,13 +215,13 @@
 .hero-buttons{
     display:flex;
     gap:18px;
-    margin-bottom:40px;
+    margin-bottom:24px;
     flex-wrap:wrap;
 }
 
 .hero img{
-    border-radius:18px;
-    box-shadow:0 30px 60px rgba(0,0,0,.12);
+    border-radius:12px;
+    box-shadow:0 25px 50px rgba(0,0,0,.10);
 }
 
 .page-hero{
@@ -228,6 +243,11 @@
 .trust-item{
     flex:1;
     min-width:200px;
+}
+
+.trust-item + .trust-item{
+    border-left:1px solid var(--color-border);
+    padding-left:20px;
 }
 /* ===================================
    PROOF BAR
