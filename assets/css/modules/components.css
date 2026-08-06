@@ -1117,11 +1117,17 @@ section{
 
 .hero-buttons{
     flex-direction:column;
+    align-items:stretch;
+}
+
+.hero-selector{
+    flex-direction:column;
 }
 
 .btn,
 .btn-outline{
     width:100%;
+    text-align:center;
 }
 
 .feature-grid,
@@ -1140,6 +1146,10 @@ section{
 
 .cta h2{
     font-size:2rem;
+}
+
+.service-cta-sidebar{
+    display:none;
 }
 
 }
