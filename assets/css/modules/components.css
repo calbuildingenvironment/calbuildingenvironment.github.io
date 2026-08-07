@@ -156,7 +156,7 @@
 
 .hero-grid{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:0.85fr 1.15fr;
     align-items:start;
     gap:60px;
 }
@@ -198,14 +198,14 @@
 }
 
 .hero h1{
-    font-size:3.8rem;
+    font-size:3.2rem;
     line-height:1.15;
     margin-bottom:24px;
     color:var(--color-text-dark);
 }
 
 .lead{
-    font-size:1.2rem;
+    font-size:1.1rem;
     line-height:1.5;
     color:var(--color-text-muted);
     margin-bottom:35px;
@@ -229,7 +229,8 @@
     font-size:.9rem;
 }
 
-.hero-cta .btn-outline{
+.cta .hero-cta .btn-outline,
+.cta .hero-buttons .btn-outline{
     border-color:var(--color-bg);
     color:var(--color-bg);
 }
@@ -811,7 +812,7 @@
 
 .split-layout{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:0.85fr 1.15fr;
     gap:50px;
     align-items:center;
 }

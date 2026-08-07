@@ -10,24 +10,18 @@ echo ""
 # Create dist directory
 mkdir -p dist/assets/css dist/assets/js
 
-echo "1. Minifying CSS..."
-# Concatenate and minify CSS modules
-cat assets/css/modules/base.css assets/css/modules/layout.css assets/css/modules/components.css > dist/assets/css/style.css
-echo "   style.css: $(wc -c < dist/assets/css/style.css) bytes"
-
-# Copy original modules for reference
-cp assets/css/modules/*.css dist/assets/css/modules/ 2>/dev/null || mkdir -p dist/assets/css/modules && cp assets/css/modules/*.css dist/assets/css/modules/
+echo "1. Copying CSS modules..."
+mkdir -p dist/assets/css/modules
+cp assets/css/modules/*.css dist/assets/css/modules/
 echo "   Modules copied."
 
-echo "2. Minifying JS..."
-# Minify JS using sed (removes comments, collapses whitespace)
-sed '/\/\//d;/\/\*/,/\*\//d;s/[[:space:]]\+/ /g;s/^[[:space:]]*//;s/[[:space:]]*$//' assets/js/main.js > dist/assets/js/main.js
-echo "   main.js: $(wc -c < dist/assets/js/main.js) bytes (was $(wc -c < assets/js/main.js))"
+echo "2. Copying JS..."
+cp assets/js/main.js dist/assets/js/main.js
+echo "   main.js copied."
 
 echo "3. Copying assets..."
 cp -r assets/images dist/assets/ 2>/dev/null
-cp assets/css/style.css dist/assets/css/style-full.css 2>/dev/null
-echo "   Images and full CSS copied."
+echo "   Images copied."
 
 echo "4. Copying HTML files..."
 # Copy all HTML files preserving structure

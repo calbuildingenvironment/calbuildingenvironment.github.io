@@ -26,7 +26,7 @@ for f in $(find . -name '*.html' ! -path './dist/*' ! -path './_includes/*' ! -p
   fi
   
   # Check title
-  if ! grep -q 'title:' "$f"; then
+  if ! grep -q '<title>' "$f"; then
     echo "MISSING TITLE: $f"
     ERRORS=$((ERRORS + 1))
   fi
