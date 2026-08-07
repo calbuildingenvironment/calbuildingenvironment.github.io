@@ -877,9 +877,19 @@
 
 .contact-grid{
     display:grid;
-    grid-template-columns:1fr 1.4fr;
-    gap:50px;
+    grid-template-columns:1fr 1.5fr;
+    gap:40px;
     margin-top:20px;
+    align-items:start;
+}
+
+.contact-process h2{
+    margin-bottom:20px;
+}
+
+.contact-form{
+    margin-top:40px;
+    max-width:600px;
 }
 
 .contact-info h3{
@@ -1178,6 +1188,11 @@ p{
     padding:32px 0 20px;
 }
 
+.hero-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+}
+
 .hero h1{
     font-size:1.75rem;
     line-height:1.25;
@@ -1392,6 +1407,7 @@ p{
 
 /* --- CONTACT --- */
 .contact-grid{
+    grid-template-columns:1fr;
     gap:24px;
 }
 
