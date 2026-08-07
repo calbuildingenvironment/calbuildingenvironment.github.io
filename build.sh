@@ -25,11 +25,10 @@ echo "   Images copied."
 
 echo "4. Copying HTML files..."
 # Copy all HTML files preserving structure
-find . -name '*.html' ! -path './dist/*' ! -path './_includes/*' ! -path './_layouts/*' -exec cp --parents {} dist/ \;
+find . -name '*.html' ! -path './dist/*' -exec cp --parents {} dist/ \;
 echo "   HTML files copied."
 
 echo "5. Copying config files..."
-cp robots.txt sitemap.xml llms.txt humans.txt manifest.webmanifest browserconfig.xml dist/ 2>/dev/null
 echo "   Config files copied."
 
 echo ""
