@@ -214,12 +214,14 @@
 
 .hero-audience{
     display:flex;
+    justify-content:center;
     gap:12px;
     margin-bottom:16px;
 }
 
 .hero-cta{
     display:flex;
+    justify-content:center;
     gap:16px;
     margin-bottom:24px;
 }
@@ -888,7 +890,7 @@
 }
 
 .contact-form{
-    margin-top:40px;
+    margin:40px auto 0;
     max-width:600px;
 }
 
@@ -1248,6 +1250,8 @@ p{
 
 /* --- TRUST BADGES --- */
 .cert-badges{
+    display:flex;
+    justify-content:center;
     gap:8px;
     padding:12px 0;
     flex-wrap:wrap;
