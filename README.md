@@ -39,7 +39,7 @@ A fast, static HTML website for California Building Environment, providing indep
 - HTML5
 - CSS3
 - Vanilla JavaScript
-- Google Fonts (Inter + Manrope)
+- Google Fonts (Inter)
 
 ## Project Structure
 

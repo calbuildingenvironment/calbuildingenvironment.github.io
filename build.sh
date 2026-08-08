@@ -28,7 +28,8 @@ echo "4. Copying HTML files..."
 find . -name '*.html' ! -path './dist/*' -exec cp --parents {} dist/ \;
 echo "   HTML files copied."
 
-echo "5. Copying config files..."
+echo "5. Copying root config and metadata files..."
+cp .nojekyll robots.txt sitemap.xml favicon.ico llms.txt humans.txt dist/
 echo "   Config files copied."
 
 echo ""
