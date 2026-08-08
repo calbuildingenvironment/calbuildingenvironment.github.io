@@ -132,9 +132,10 @@ Because we do not perform remediation services, our assessments remain independe
 
 <div class="split-image">
 
-<img src="../assets/images/services/iaq.jpg"
-
-alt="Indoor air quality assessment">
+<picture>
+<source srcset="../assets/images/services/iaq-640.webp 640w, ../assets/images/services/iaq-960.webp 960w, ../assets/images/services/iaq-1280.webp 1280w, ../assets/images/services/iaq.webp 1536w" sizes="(max-width: 768px) 94vw, 560px" type="image/webp">
+<img src="../assets/images/services/iaq.jpg" alt="Indoor air quality inspector evaluating ventilation system in a commercial office building" width="1536" height="1024" loading="eager" fetchpriority="high">
+</picture>
 
 </div>
 
@@ -385,9 +386,10 @@ WHAT WE EVALUATE
 
 <div class="split-image">
 
-<img src="../assets/images/services/iaq-investigation.jpg"
-
-alt="Indoor air quality investigation">
+<picture>
+<source srcset="../assets/images/services/iaq-investigation-640.webp 640w, ../assets/images/services/iaq-investigation-960.webp 960w, ../assets/images/services/iaq-investigation.webp 1264w" sizes="(max-width: 768px) 94vw, 560px" type="image/webp">
+<img src="../assets/images/services/iaq-investigation.jpg" alt="Air sampling pump and equipment used during indoor air quality investigation" width="1264" height="843" loading="lazy">
+</picture>
 
 </div>
 
@@ -595,10 +597,13 @@ CALL TO ACTION
 <section class="section quote-section">
 <div class="container">
 <h2 class="text-center">Request a Quote</h2>
-<form class="quote-form quote-form-inline">
+<form class="quote-form quote-form-inline" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="ea2dc7dd-f86a-4300-939d-cd5b41537b7e">
+<input type="hidden" name="redirect" value="https://calbuildingenvironment.github.io/thank-you.html">
+<input type="hidden" name="subject" value="Quote Request from Website">
 <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" autocomplete="name" required>
 <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" autocomplete="email" required>
-<input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" autocomplete="tel" required>
+<input type="tel" name="phone" placeholder="Phone Number (optional)" aria-label="Phone Number" autocomplete="tel">
 <select name="service" aria-label="Select a Service" required>
 <option value="">Select a Service</option>
 <option>Asbestos Inspection</option>
@@ -665,12 +670,6 @@ FOOTER
 <button id="topBtn" aria-label="Back to top">↑</button>
 
 
-<div class="service-cta-sidebar">
-<h3>Need an Inspection?</h3>
-<p>We respond within 24 hours.</p>
-<a href="../contact.html" class="btn">Get a Quote</a>
-<a href="tel:+17146098367" class="btn-outline call-outline-white">Call Now</a>
-</div>
 
 <a href="tel:+17146098367" class="call-button" aria-label="Call (714) 609-8367">📞 Call</a>
 </main>
