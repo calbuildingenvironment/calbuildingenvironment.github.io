@@ -234,7 +234,7 @@ nav a:hover{
     margin-top:12px;
 }
 
-.quiz-cta-center{
+.btn.quiz-cta-center{
     display:block;
     margin:16px auto 0;
     max-width:300px;
