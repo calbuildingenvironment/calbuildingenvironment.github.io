@@ -135,35 +135,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    /*=========================
-      QUOTE FORM
-    =========================*/
-
-    const quoteForm = document.querySelector(".quote-form");
-
-    if (quoteForm) {
-
-        quoteForm.addEventListener("submit", (e) => {
-
-            e.preventDefault();
-
-            const field = (key) => quoteForm.elements.namedItem(key).value.trim();
-            const subject = encodeURIComponent(
-                `Quote Request: ${field("service")} - ${field("name")}`
-            );
-            const body = encodeURIComponent(
-                `Name: ${field("name")}\n` +
-                `Email: ${field("email")}\n` +
-                `Phone: ${field("phone")}\n` +
-                `Service: ${field("service")}\n\n` +
-                `${field("message")}`
-            );
-
-            window.location.href =
-                `mailto:calbuildingenvironment@gmail.com?subject=${subject}&body=${body}`;
-
-        });
-
-    }
-
 });
