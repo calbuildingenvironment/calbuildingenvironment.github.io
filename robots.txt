@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 
 # AI answer engines / assistants
+
 User-agent: GPTBot
 Allow: /
 
