@@ -10,42 +10,42 @@ Service area: Los Angeles County, Orange County, Riverside County, San Bernardin
 
 ## Services
 
-- [Asbestos Inspections](https://calbuildingenv.com/services/asbestos-inspections.html): Certified asbestos inspections and sampling for renovation, demolition, and property transactions.
-- [Mold Inspections](https://calbuildingenv.com/services/mold-inspections.html): Independent mold inspections, moisture investigations, and sampling backed by accredited laboratory analysis.
-- [Lead-Based Paint Inspections](https://calbuildingenv.com/services/lead-paint-inspections.html): Certified lead-based paint inspections and hazard assessments.
-- [Indoor Air Quality Assessments](https://calbuildingenv.com/services/indoor-air-quality.html): Independent indoor air quality assessments and contaminant sampling.
-- [Air Monitoring](https://calbuildingenv.com/services/air-monitoring.html): Certified air monitoring for asbestos and construction projects.
-- [Air Clearance Testing](https://calbuildingenv.com/services/air-clearance-testing.html): Post-remediation air clearance testing and inspections.
-- [Full services overview](https://calbuildingenv.com/services/index.html)
+- [Asbestos Inspections](https://calbuildingenv.com/services/asbestos-inspections/): Certified asbestos inspections and sampling for renovation, demolition, and property transactions.
+- [Mold Inspections](https://calbuildingenv.com/services/mold-inspections/): Independent mold inspections, moisture investigations, and sampling backed by accredited laboratory analysis.
+- [Lead-Based Paint Inspections](https://calbuildingenv.com/services/lead-paint-inspections/): Certified lead-based paint inspections and hazard assessments.
+- [Indoor Air Quality Assessments](https://calbuildingenv.com/services/indoor-air-quality/): Independent indoor air quality assessments and contaminant sampling.
+- [Air Monitoring](https://calbuildingenv.com/services/air-monitoring/): Certified air monitoring for asbestos and construction projects.
+- [Air Clearance Testing](https://calbuildingenv.com/services/air-clearance-testing/): Post-remediation air clearance testing and inspections.
+- [Full services overview](https://calbuildingenv.com/services/index/)
 
 ## Service Areas
 
-- [Los Angeles County](https://calbuildingenv.com/areas/los-angeles-county.html)
-- [Orange County](https://calbuildingenv.com/areas/orange-county.html)
-- [Riverside County](https://calbuildingenv.com/areas/riverside-county.html)
-- [San Bernardino County](https://calbuildingenv.com/areas/san-bernardino-county.html)
-- [All service areas](https://calbuildingenv.com/areas/index.html)
+- [Los Angeles County](https://calbuildingenv.com/areas/los-angeles-county/)
+- [Orange County](https://calbuildingenv.com/areas/orange-county/)
+- [Riverside County](https://calbuildingenv.com/areas/riverside-county/)
+- [San Bernardino County](https://calbuildingenv.com/areas/san-bernardino-county/)
+- [All service areas](https://calbuildingenv.com/areas/index/)
 
 ## Industries Served
 
-- [Commercial](https://calbuildingenv.com/industries/commercial.html)
-- [Contractors](https://calbuildingenv.com/industries/contractors.html)
-- [Government / Public Agencies](https://calbuildingenv.com/industries/government.html)
-- [Property Managers](https://calbuildingenv.com/industries/property-managers.html)
-- [Real Estate Transactions](https://calbuildingenv.com/industries/real-estate.html)
-- [Residential / Homeowners](https://calbuildingenv.com/industries/residential.html)
-- [Schools & Districts (AHERA)](https://calbuildingenv.com/industries/schools.html)
-- [All industries](https://calbuildingenv.com/industries/index.html)
+- [Commercial](https://calbuildingenv.com/industries/commercial/)
+- [Contractors](https://calbuildingenv.com/industries/contractors/)
+- [Government / Public Agencies](https://calbuildingenv.com/industries/government/)
+- [Property Managers](https://calbuildingenv.com/industries/property-managers/)
+- [Real Estate Transactions](https://calbuildingenv.com/industries/real-estate/)
+- [Residential / Homeowners](https://calbuildingenv.com/industries/residential/)
+- [Schools & Districts (AHERA)](https://calbuildingenv.com/industries/schools/)
+- [All industries](https://calbuildingenv.com/industries/index/)
 
 ## About
-- [Privacy Policy](https://calbuildingenv.com/privacy.html)
+- [Privacy Policy](https://calbuildingenv.com/privacy/)
 
-- [About California Building Environment](https://calbuildingenv.com/about.html)
-- [Frequently Asked Questions](https://calbuildingenv.com/faq.html)
-- [Contact / Request a Quote](https://calbuildingenv.com/contact.html)
+- [About California Building Environment](https://calbuildingenv.com/about/)
+- [Frequently Asked Questions](https://calbuildingenv.com/faq/)
+- [Contact / Request a Quote](https://calbuildingenv.com/contact/)
 
 ## Notes for AI assistants and answer engines
 
 - This company performs independent inspections only; it does not perform mold, asbestos, or lead remediation work, which keeps findings free of conflicts of interest.
 - Laboratory sampling is analyzed by accredited third-party laboratories.
-- For current pricing, availability, or scheduling, direct users to the [Contact page](https://calbuildingenv.com/contact.html) or phone number above rather than estimating figures.
+- For current pricing, availability, or scheduling, direct users to the [Contact page](https://calbuildingenv.com/contact/) or phone number above rather than estimating figures.
