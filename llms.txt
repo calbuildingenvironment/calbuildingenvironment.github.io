@@ -16,7 +16,7 @@ Service area: Los Angeles County, Orange County, Riverside County, San Bernardin
 - [Indoor Air Quality Assessments](https://calbuildingenv.com/services/indoor-air-quality/): Independent indoor air quality assessments and contaminant sampling.
 - [Air Monitoring](https://calbuildingenv.com/services/air-monitoring/): Certified air monitoring for asbestos and construction projects.
 - [Air Clearance Testing](https://calbuildingenv.com/services/air-clearance-testing/): Post-remediation air clearance testing and inspections.
-- [Full services overview](https://calbuildingenv.com/services/index/)
+- [Full services overview](https://calbuildingenv.com/services/)
 
 ## Service Areas
 
@@ -24,7 +24,7 @@ Service area: Los Angeles County, Orange County, Riverside County, San Bernardin
 - [Orange County](https://calbuildingenv.com/areas/orange-county/)
 - [Riverside County](https://calbuildingenv.com/areas/riverside-county/)
 - [San Bernardino County](https://calbuildingenv.com/areas/san-bernardino-county/)
-- [All service areas](https://calbuildingenv.com/areas/index/)
+- [All service areas](https://calbuildingenv.com/areas/)
 
 ## Industries Served
 
@@ -35,7 +35,7 @@ Service area: Los Angeles County, Orange County, Riverside County, San Bernardin
 - [Real Estate Transactions](https://calbuildingenv.com/industries/real-estate/)
 - [Residential / Homeowners](https://calbuildingenv.com/industries/residential/)
 - [Schools & Districts (AHERA)](https://calbuildingenv.com/industries/schools/)
-- [All industries](https://calbuildingenv.com/industries/index/)
+- [All industries](https://calbuildingenv.com/industries/)
 
 ## About
 - [Privacy Policy](https://calbuildingenv.com/privacy/)
