@@ -1,6 +1,6 @@
 # Part 6: AI Search / Answer Engine Audit
 
-**Site:** California Building Environment (calbuildingenvironment.github.io)  
+**Site:** California Building Environment (calbuildingenv.com)  
 **Date:** 2026-08-08  
 **Scope:** All 27 pages — technical readiness for AI crawlers, LLM training, and answer engines (ChatGPT, Perplexity, Google AI Overviews, Claude, etc.)
 
@@ -41,7 +41,7 @@ Allow: /
 
 ### Sitemap.xml — ✅ Complete
 - 27 URLs listed with proper `lastmod`, `changefreq`, `priority`
-- All canonical URLs match `https://calbuildingenvironment.github.io/...`
+- All canonical URLs match `https://calbuildingenv.com/...`
 - Includes service pages (6), industry pages (8), area pages (4), core pages (about, contact, faq, index)
 
 ### No Index/NoFollow Issues — ✅ Clean
@@ -301,9 +301,9 @@ LLMs and answer engines weigh **verifiable third-party signals** heavily when de
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://calbuildingenvironment.github.io/#business",
+  "@id": "https://calbuildingenv.com/#business",
   "name": "California Building Environment",
-  "url": "https://calbuildingenvironment.github.io/",
+  "url": "https://calbuildingenv.com/",
   "telephone": "+1-714-609-8367",
   "email": "calbuildingenvironment@gmail.com",
   "address": {

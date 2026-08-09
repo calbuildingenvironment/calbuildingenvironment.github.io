@@ -2,7 +2,7 @@
 
 Company: California Building Environment
 
-Website: https://calbuildingenvironment.github.io
+Website: https://calbuildingenv.com
 
 Services:
 - Asbestos Inspections

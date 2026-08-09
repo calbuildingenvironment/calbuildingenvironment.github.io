@@ -1,6 +1,6 @@
 # Part 8: Complete Website Performance Audit
 
-**Site:** California Building Environment (calbuildingenvironment.github.io)  
+**Site:** California Building Environment (calbuildingenv.com)  
 **Date:** 2026-08-08  
 **Architecture:** Static HTML/CSS/JS — no build step, no Jekyll, no framework  
 **Deployment Target:** GitHub Pages  

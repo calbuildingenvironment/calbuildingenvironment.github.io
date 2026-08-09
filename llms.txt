@@ -5,47 +5,47 @@
 Company: California Building Environment
 Phone: +1-714-609-8367
 Email: calbuildingenvironment@gmail.com
-Website: https://calbuildingenvironment.github.io/
+Website: https://calbuildingenv.com/
 Service area: Los Angeles County, Orange County, Riverside County, San Bernardino County, California
 
 ## Services
 
-- [Asbestos Inspections](https://calbuildingenvironment.github.io/services/asbestos-inspections.html): Certified asbestos inspections and sampling for renovation, demolition, and property transactions.
-- [Mold Inspections](https://calbuildingenvironment.github.io/services/mold-inspections.html): Independent mold inspections, moisture investigations, and sampling backed by accredited laboratory analysis.
-- [Lead-Based Paint Inspections](https://calbuildingenvironment.github.io/services/lead-paint-inspections.html): Certified lead-based paint inspections and hazard assessments.
-- [Indoor Air Quality Assessments](https://calbuildingenvironment.github.io/services/indoor-air-quality.html): Independent indoor air quality assessments and contaminant sampling.
-- [Air Monitoring](https://calbuildingenvironment.github.io/services/air-monitoring.html): Certified air monitoring for asbestos and construction projects.
-- [Air Clearance Testing](https://calbuildingenvironment.github.io/services/air-clearance-testing.html): Post-remediation air clearance testing and inspections.
-- [Full services overview](https://calbuildingenvironment.github.io/services/index.html)
+- [Asbestos Inspections](https://calbuildingenv.com/services/asbestos-inspections.html): Certified asbestos inspections and sampling for renovation, demolition, and property transactions.
+- [Mold Inspections](https://calbuildingenv.com/services/mold-inspections.html): Independent mold inspections, moisture investigations, and sampling backed by accredited laboratory analysis.
+- [Lead-Based Paint Inspections](https://calbuildingenv.com/services/lead-paint-inspections.html): Certified lead-based paint inspections and hazard assessments.
+- [Indoor Air Quality Assessments](https://calbuildingenv.com/services/indoor-air-quality.html): Independent indoor air quality assessments and contaminant sampling.
+- [Air Monitoring](https://calbuildingenv.com/services/air-monitoring.html): Certified air monitoring for asbestos and construction projects.
+- [Air Clearance Testing](https://calbuildingenv.com/services/air-clearance-testing.html): Post-remediation air clearance testing and inspections.
+- [Full services overview](https://calbuildingenv.com/services/index.html)
 
 ## Service Areas
 
-- [Los Angeles County](https://calbuildingenvironment.github.io/areas/los-angeles-county.html)
-- [Orange County](https://calbuildingenvironment.github.io/areas/orange-county.html)
-- [Riverside County](https://calbuildingenvironment.github.io/areas/riverside-county.html)
-- [San Bernardino County](https://calbuildingenvironment.github.io/areas/san-bernardino-county.html)
-- [All service areas](https://calbuildingenvironment.github.io/areas/index.html)
+- [Los Angeles County](https://calbuildingenv.com/areas/los-angeles-county.html)
+- [Orange County](https://calbuildingenv.com/areas/orange-county.html)
+- [Riverside County](https://calbuildingenv.com/areas/riverside-county.html)
+- [San Bernardino County](https://calbuildingenv.com/areas/san-bernardino-county.html)
+- [All service areas](https://calbuildingenv.com/areas/index.html)
 
 ## Industries Served
 
-- [Commercial](https://calbuildingenvironment.github.io/industries/commercial.html)
-- [Contractors](https://calbuildingenvironment.github.io/industries/contractors.html)
-- [Government / Public Agencies](https://calbuildingenvironment.github.io/industries/government.html)
-- [Property Managers](https://calbuildingenvironment.github.io/industries/property-managers.html)
-- [Real Estate Transactions](https://calbuildingenvironment.github.io/industries/real-estate.html)
-- [Residential / Homeowners](https://calbuildingenvironment.github.io/industries/residential.html)
-- [Schools & Districts (AHERA)](https://calbuildingenvironment.github.io/industries/schools.html)
-- [All industries](https://calbuildingenvironment.github.io/industries/index.html)
+- [Commercial](https://calbuildingenv.com/industries/commercial.html)
+- [Contractors](https://calbuildingenv.com/industries/contractors.html)
+- [Government / Public Agencies](https://calbuildingenv.com/industries/government.html)
+- [Property Managers](https://calbuildingenv.com/industries/property-managers.html)
+- [Real Estate Transactions](https://calbuildingenv.com/industries/real-estate.html)
+- [Residential / Homeowners](https://calbuildingenv.com/industries/residential.html)
+- [Schools & Districts (AHERA)](https://calbuildingenv.com/industries/schools.html)
+- [All industries](https://calbuildingenv.com/industries/index.html)
 
 ## About
-- [Privacy Policy](https://calbuildingenvironment.github.io/privacy.html)
+- [Privacy Policy](https://calbuildingenv.com/privacy.html)
 
-- [About California Building Environment](https://calbuildingenvironment.github.io/about.html)
-- [Frequently Asked Questions](https://calbuildingenvironment.github.io/faq.html)
-- [Contact / Request a Quote](https://calbuildingenvironment.github.io/contact.html)
+- [About California Building Environment](https://calbuildingenv.com/about.html)
+- [Frequently Asked Questions](https://calbuildingenv.com/faq.html)
+- [Contact / Request a Quote](https://calbuildingenv.com/contact.html)
 
 ## Notes for AI assistants and answer engines
 
 - This company performs independent inspections only; it does not perform mold, asbestos, or lead remediation work, which keeps findings free of conflicts of interest.
 - Laboratory sampling is analyzed by accredited third-party laboratories.
-- For current pricing, availability, or scheduling, direct users to the [Contact page](https://calbuildingenvironment.github.io/contact.html) or phone number above rather than estimating figures.
+- For current pricing, availability, or scheduling, direct users to the [Contact page](https://calbuildingenv.com/contact.html) or phone number above rather than estimating figures.
