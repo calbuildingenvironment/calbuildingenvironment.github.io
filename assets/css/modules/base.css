@@ -80,6 +80,17 @@ ul {
     list-style: none;
 }
 
+.botcheck,
+input[name="botcheck"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+}
+
 .container {
     width: min(1200px, 92%);
     margin: 0 auto;

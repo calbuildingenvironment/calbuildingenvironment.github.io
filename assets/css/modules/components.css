@@ -10,6 +10,7 @@
     display:inline-flex;
     align-items:center;
     justify-content:center;
+    gap:8px;
     background:var(--color-primary);
     color:var(--color-bg);
     padding:14px 28px;
@@ -26,6 +27,7 @@
 .btn-outline{
     display:inline-flex;
     align-items:center;
+    gap:8px;
     justify-content:center;
     border:2px solid var(--color-primary);
     color:var(--color-primary);
@@ -44,7 +46,6 @@
     position:fixed;
     bottom:24px;
     right:24px;
-    z-index:1000;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -118,6 +119,7 @@
 
 .hero{
     padding:80px 0 40px;
+    text-align:center;
     background:linear-gradient(to bottom,var(--color-bg),var(--color-bg-alt));
 }
 
@@ -180,7 +182,7 @@
 .lead{
     font-size:1.1rem;
     line-height:1.5;
-    color:var(--color-text-muted);
+    color:var(--color-text);
     margin-bottom:35px;
     max-width:600px;
 }
@@ -212,6 +214,7 @@
 
 .hero-buttons{
     display:flex;
+    justify-content:center;
     gap:18px;
     margin-bottom:24px;
     flex-wrap:wrap;
@@ -234,6 +237,7 @@
 }
 
 .trust{
+    justify-content:center;
     font-weight:600;
     color:var(--color-primary);
 }
@@ -372,7 +376,7 @@
 
 .lede{
     font-size:1.15rem;
-    color:var(--color-text-light);
+    color:var(--color-text-muted);
     max-width:700px;
     margin-top:16px;
 }
@@ -461,6 +465,12 @@
     font-size:2rem;
 }
 
+.icon svg{
+    width:34px;
+    height:34px;
+    flex:none;
+}
+
 /* ===================================
    SERVICES
 =================================== */
@@ -482,6 +492,7 @@
     padding:35px;
     transition:.3s;
     background:var(--color-bg);
+    box-shadow:var(--shadow-sm);
     position:relative;
 }
 
@@ -1180,7 +1191,7 @@ p{
 }
 
 .hero .lead{
-    font-size:.95rem;
+    font-size:1rem;
     line-height:1.65;
     margin-bottom:16px;
 }
@@ -1268,6 +1279,11 @@ p{
     font-size:1.4rem;
 }
 
+.icon svg{
+    width:22px;
+    height:22px;
+}
+
 .card h3{
     font-size:1rem;
     margin:10px 0 6px;
@@ -1276,6 +1292,12 @@ p{
 .card p{
     font-size:.9rem;
     line-height:1.55;
+}
+
+/* --- SPLIT LAYOUT --- */
+.split-layout{
+    grid-template-columns:1fr;
+    gap:24px;
 }
 
 /* --- SERVICE CARDS --- */
@@ -1482,5 +1504,16 @@ p{
     opacity:1;
 
     transform:translateY(0);
+
+}
+
+@media (prefers-reduced-motion: reduce){
+
+    .fade-up,
+    .fade-up.visible{
+        opacity:1;
+        transform:none;
+        transition:none;
+    }
 
 }

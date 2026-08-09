@@ -14,33 +14,34 @@ document.addEventListener("DOMContentLoaded", () => {
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
     /*=========================
-      MOBILE MENU
+      ACTIVE NAV STATE
     =========================*/
 
-    const menuButton = document.querySelector(".mobile-menu");
-    const navMenu = document.querySelector("nav ul");
+    const herePath = location.pathname.replace(/\/index\.html$/, "") || "/";
 
-    if (menuButton && navMenu) {
+    document.querySelectorAll(".main-nav a[href]").forEach((link) => {
 
-        menuButton.addEventListener("click", () => {
+        const targetPath = (new URL(link.href)).pathname.replace(/\/index\.html$/, "") || "/";
 
-            navMenu.classList.toggle("show-menu");
+        if (targetPath === herePath || (herePath.startsWith(targetPath) && targetPath !== "/")) {
+            link.classList.add("active");
+        }
 
-            menuButton.innerHTML =
-                navMenu.classList.contains("show-menu") ? "✕" : "☰";
-
-        });
-
-    }
+    });
 
     /*=========================
-      MOBILE MENU (industries pages template)
+      MOBILE MENU
     =========================*/
 
     const navToggle = document.querySelector(".nav-toggle");
     const mainNav = document.querySelector(".main-nav");
 
     if (navToggle && mainNav) {
+
+        const closeMenu = () => {
+            mainNav.classList.remove("show-menu");
+            navToggle.setAttribute("aria-expanded", "false");
+        };
 
         navToggle.addEventListener("click", () => {
 
@@ -51,6 +52,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 mainNav.classList.contains("show-menu") ? "true" : "false"
             );
 
+        });
+
+        document.addEventListener("click", (event) => {
+            if (
+                mainNav.classList.contains("show-menu") &&
+                !mainNav.contains(event.target) &&
+                !navToggle.contains(event.target)
+            ) {
+                closeMenu();
+            }
+        });
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                closeMenu();
+            }
         });
 
     }
@@ -83,31 +100,35 @@ document.addEventListener("DOMContentLoaded", () => {
         ".service-card, .industry-card, .process-card, .county-card, .resource-card, .trust-item"
     );
 
-    const observer = new IntersectionObserver((entries) => {
+    if ("IntersectionObserver" in window) {
 
-        entries.forEach(entry => {
+        const observer = new IntersectionObserver((entries) => {
 
-            if (entry.isIntersecting) {
+            entries.forEach(entry => {
 
-                entry.target.classList.add("visible");
+                if (entry.isIntersecting) {
 
-            }
+                    entry.target.classList.add("visible");
+
+                }
+
+            });
+
+        }, {
+
+            threshold: 0.15
 
         });
 
-    }, {
+        animatedItems.forEach(item => {
 
-        threshold: 0.15
+            item.classList.add("fade-up");
 
-    });
+            observer.observe(item);
 
-    animatedItems.forEach(item => {
+        });
 
-        item.classList.add("fade-up");
-
-        observer.observe(item);
-
-    });
+    }
 
     /*=========================
       BACK TO TOP BUTTON
