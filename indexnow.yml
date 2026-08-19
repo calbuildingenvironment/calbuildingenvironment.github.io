@@ -1,0 +1,30 @@
+name: IndexNow Ping
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping IndexNow
+        env:
+          KEY: 8966f508a3a3fc66d3fd62270fdf6c5861a641abb8379c3d1e6192f0271cf7bd
+          HOST: calbuildingenv.com
+        run: |
+          URLS='[
+            "https://calbuildingenv.com/",
+            "https://calbuildingenv.com/services/",
+            "https://calbuildingenv.com/contact/",
+            "https://calbuildingenv.com/faq/",
+            "https://calbuildingenv.com/about/",
+            "https://calbuildingenv.com/areas/orange-county/",
+            "https://calbuildingenv.com/areas/los-angeles-county/",
+            "https://calbuildingenv.com/areas/riverside-county/",
+            "https://calbuildingenv.com/areas/san-bernardino-county/"
+          ]'
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"urlList\":$URLS}" \
+            -w "\nHTTP %{http_code}\n"
